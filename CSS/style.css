@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    display: inline-block;
+    padding: 0 10px ;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+button{
+    background: #2B1B12;
+    color: #fff;
+    border: none;
+    outline :none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+button:hover{
+    box-shadow: 2px 3px 1px 2px #ddd;
+}
+
+p{
+    font-size: 18px;
+    color: #4f2727;
+}
+h2{
+    font-size: 40px;
+    color: #2b1b12;
+}
+.title{
+    text-align: center;
+}
+section{
+    margin: 200px 0;
+}
+/* ======================================
+                Header Area Start
+=========================================*/
+.header_area{
+    margin-top:10px;
+    margin-bottom: 100px;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.menu_area .logo{
+    width:90px;
+}
+.menu_area .logo img{
+    width:100%;
+    cursor: pointer;
+}
+
+.menu_area,.menu_area ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    display: inline-block;
+    padding: 0 10px ;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.signup .fa-solid{
+    cursor: pointer;
+}
+
+/* hero area */
+.hero_text h1 {
+    width: 290px;
+    font-size: 40px;
+    color: #2B1B12;
+    font-weight: 800;
+}
+
+.hero_text p {
+    width: 336px;
+}
+
+.hero_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_image div img {
+    width: 100%;
+}
+
+.hero_wrapper p {
+    color: #4F3527;
+    margin: 25px 0;
+}
+
+
+
+/* header form */
+
+.hform{
+    width: 90%;
+    margin: 0 auto;
+}
+.hformWrapper{
+    background:#ddc7bb;
+    height: 160px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.inputWrapper input{
+    border:none;
+    outline: none;
+    border-radius: 8px;
+    padding:10px
+}
+.inputWrapper input::placeholder{
+    color: #695346;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+
+
+
+/* HEADER DESCRIPTION */
+
+.header_description{
+    margin-top: 100px;
+}
+.h_des_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+
+.h_des_image,.h_des_text{
+    width: 50%;
+}
+.h_des_image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.h_des_text h2{
+    font-size: 40px;
+    color: #2b1b12;
+
+}
+.h_des_text p{
+    margin:30px 0;
+
+}
+.h_des_text_numbers{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.h_des_text_single_number h4{
+    color: #4f3527;
+    font-size: 30px;
+}
+
+
+/* ======================================
+                Header Area End
+=========================================*/
+
+
+/* ======================================
+            Why Choose Us Area Start
+=========================================*/
+
+.chooseus_title p{
+    text-align: center;
+    font-size: 16px;
+    width:500px;
+    margin: 20px auto;
+
+}
+.chooseus_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap:25px;
+  
+}
+
+.c_card{
+    background-color: #ddc7bb;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+.c_card h3{
+   font-size: 18px
+
+}
+.c_card p{
+   font-size: 16px
+
+}
+.c_card img{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px 0;
+
+}
+
+/* ======================================
+            Why Choose Us Area End
+=========================================*/
+
+
+/* ===================================================
+           Our Popular Residences Area Start
+=======================================================*/
+
+.residences_area h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 40px;
+        color: #2B1B12;
+}
+.residences_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.residences_card{
+    background-color: #ddc7bb;
+    border-radius: 10px;
+    width:350px;
+}
+.residences_card .residences_image img{
+    height: 356px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.residences_text {
+   padding: 15px;
+
+}
+.residences_text .res_location {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+  
+}
+.residences_text .res_location h4 {
+  font-size: 20px;
+  color: #2B1B12;
+  font-weight: bold;
+  
+}
+.residences_text .res_measurement{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin: 15px 0;
+
+}
+.residences_text .res_measurement_rooms{
+    display: flex;
+    align-items: center;
+    gap:10px; 
+}
+.residences_text .res_measurement_rooms img{
+    background-color: #fff;
+}
+.residences_text .res_measurement_rooms span{
+    font-size: 18px;
+    color:#4f3527;
+}
+
+
+.residences_text .sp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.residences_text span{
+    color: #4f2727;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* =================================================
+            Our Popular Residences Area End
+====================================================*/
+
+
+
+/* =================================================
+            Say About Area Start 
+====================================================*/
+.sayabout_area h2{
+    text-align: center;
+    margin: 0 310px;
+}
+.sayabout_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:150px
+}
+.sayabout_card{
+    margin-top: 30px;
+    background-color: #ddc7bb;
+    border-radius: 10px;
+    width:380px;
+    
+}
+.sayabout_image img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width:100%
+}
+.sayabout_text{
+    padding:15px
+}
+
+.sayabout_client{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.sayabout_client .person_img img{
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+
+}
+.client_name{
+    font-size: 20px;
+    color: #2B1B12;
+    font-weight: bold;
+}
+.client_address{
+    font-size: 16px;
+    color: #2B1B12;
+    margin-top: 10px;
+}
+
+.sayabout_rating{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;    
+}
+.sayabout_rating span{
+    font-size: 16px;
+}
+.client_rewiew{
+    font-size: 16;
+    color: #4f2727;
+}
+/* =================================================
+            Say About Area End
+====================================================*/
+
+/* =================================================
+            Questions Area Start 
+====================================================*/
+.question_area {
+    margin-top: -80px;
+    margin-bottom: 100px;
+}
+.question_wrapper h2{
+    text-align: center;
+    margin: 30px 220px;
+
+}
+
+
+.questions{
+    color: #543E32;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 660px;
+    margin: 0 auto;
+ 
+}
+.question_faq,.question_team{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px
+}
+.question_email {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    width: 660px;
+    margin-top: 40px;
+    
+}
+.question_email .email {
+    display: flex;
+    align-items: center;
+    background: #ddc7bb;
+    height: 60px;
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.question_email button {
+    height: 58px;
+    width: 140px;
+}
+input{
+    outline:none;
+    border:none;
+    background:none;
+}
+/* =================================================
+            Questions Area  End
+====================================================*/
+
+
+
+/* =================================================
+            Footer Area Start
+====================================================*/
+footer{
+    background-color: #ddc7bb;
+   padding: 50px;
+}
+.footer_wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.footer_wrapper h5{
+    color: #2B1B12;
+    font-size: 22px;
+    font-weight: bold;
+}
+.dellow p{
+    width: 185px;
+}
+.footer_wrapper li a{
+    font-weight: lighter;
+    color: #4F3527;
+    margin: 5px -9px;
+}
+/* .dellow,.about,.Support,.Find_Us,.Our_Social{
+    width: 25%;
+} */
+
+
+/* =================================================
+            Footer Area End
+====================================================*/
+
+
